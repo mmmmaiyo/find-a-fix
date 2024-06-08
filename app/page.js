@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from 'react'
 import CategoryList from "./_components/CategoryList";
 import GlobalApi from "./_services/GlobalApi";
+import Header from "./_components/Header";
 
 export default function Home() {
 
@@ -21,7 +22,7 @@ export default function Home() {
 
   return (
     <div>
-      <h2>Good Luck Pookie Bear :p</h2>
+      
 
       <CategoryList categoryList = {CategoryList} />
     </div>
